@@ -9,6 +9,7 @@ from sklearn.decomposition import PCA
 from util import visualize_rgb
 
 def fast_norm(x):
+#Change
 	return np.sqrt(np.dot(x, x.T))
 def gaussian(w, h, c, sigma):
 	d = 2*np.pi*sigma*sigma
